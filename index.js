@@ -1,8 +1,3 @@
-class Cliente {
-    nome;
-    cpf;
-}
-
 class ContaCorrente {
     agencia;
     // #saldo https://github.com/tc39/proposal-class-fields#private-fields
