@@ -11,12 +11,6 @@ cliente2.cpf = 88822233309;
 
 const contaCorrenteRicardo = new ContaCorrente();
 contaCorrenteRicardo.agencia = 1001;
-
-contaCorrenteRicardo.depositar(-100);
-contaCorrenteRicardo.depositar(100);
-contaCorrenteRicardo.depositar(200);
-
-const valorSacado = contaCorrenteRicardo.sacar(50);
-console.log(valorSacado);
+contaCorrenteRicardo.cliente = cliente1;
 
 console.log(contaCorrenteRicardo);
