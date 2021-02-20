@@ -1,4 +1,4 @@
-class ContaCorrente {
+export class ContaCorrente {
     agencia;
     // #saldo https://github.com/tc39/proposal-class-fields#private-fields
     _saldo = 0;
