@@ -3,7 +3,7 @@ export class Cliente {
     _cpf;
 
     get cpf() {
-        this.cpf;
+        return this.cpf;
     }
 
     constructor(nome,cpf) {
